@@ -17,7 +17,9 @@ public class Tuition {
 		
 		// percentage increase
 		System.out.print("What is the percentage increase in tuition each year?");
-		rate = input.nextDouble()/100;
+		rate = input.nextDouble();
+		
+		rate=rate/100;
 
 	
 		// for loop
